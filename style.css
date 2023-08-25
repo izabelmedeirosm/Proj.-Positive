@@ -5,90 +5,189 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
-
-header {
-margin-top: 47px;
-margin-left: 42px;
+header{
+    margin-left: 42px;
+    margin-top: 47px;
+    cursor: pointer;
+    
 }
 
 .link-header {
-    margin-top: 47px;
-    margin-right: 32px;
-    margin-bottom: 956px;
-    margin-left: 42px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    margin-left: 36px;
     color: #17233D;
     text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     letter-spacing: 0.875px;
-    cursor: pointer;
-
 }
 
 .button-header {
-    background: #6FBF44;
-    border: 1px solid #4CB538;
+    margin-left: 36px;
     border-radius: 6px;
-    Width: 124px;
-    height: 51px;
-    font-weight: 500;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
     font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
+    line-height: normal;
     letter-spacing: 1px;
-    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
     cursor: pointer;
-    margin-left: 32px;
 
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.5;
 }
 
 img {
-    width: 595.18px;
-    height: 500px;
-    display: inline-block;
-    margin-top: 163px;
     margin-left: 121px;
-       
+    margin-top: 120px;
+    position: absolute;
 }
 
-div {
+section{
     display: inline-block;
-    margin-left: 85px;
-    width: 493px;
-
+    width: 1440px;
+    height: 1024px;
+    margin-left: 801px;
+    margin-top: 210px;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 82px;
-    letter-spacing: 0.596154px;
+h1{
+    width: 582px;
     color: #161A49;
-
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.258% ;
+    letter-spacing: 0.596px;
 }
-
-p {
+p{
     width: 493px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 33px;
-    letter-spacing: 0.5px;
     color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 183.333%;
+    letter-spacing: 0.5px;
     margin-top: 47px;
-    margin-bottom:55px;
-    text-align: justify;
+    margin-bottom: 55px;
 }
 
-.link-section {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: 1px;
+.link-section{
     color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
     cursor: pointer;
 }
+
+.link-section:hover {
+    opacity: 0.8;
+}
+
+.link-section:active {
+    opacity: 0.5;
+}
+
 /*se p Learn More fosse um button
 background: transparente;
 border: none;
 
 */
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;        
+    }
+
+    section {
+        display: block;
+        height: auto;
+        width: 75%;
+        position: static;
+        margin-left: 13%;
+        margin-top: 15%;
+    }
+
+    h1 {
+        width: 75vw;
+        text-align: center;
+        color: #161A49;
+        font-size: 8vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0.596px;
+        font-size: 30px;
+        margin-bottom: 3%;
+        
+    }
+    p {
+        width: 75vw;
+        height: auto;
+        text-align: center;
+        color: #4B505A;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 183.333%;
+        letter-spacing: 0.5px;
+        margin-bottom: 5%;
+    }
+
+    img {
+        display: block;
+        margin-left: 13%;
+        margin-top: 35vh;
+        width: 75vw;
+        height: auto;
+        
+    }
+    
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-top: 5px;
+        margin-left:70%;
+        margin-bottom: 5%;
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        width: 61px;
+        height: 18px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        width: 91px;
+        height: 31px;
+    }
+
+    .link-section {
+        width:70%;
+        display:block;
+        margin-left:30%;
+        margin-bottom: 5%;
+        
+        
+
+    }
+  
+}
