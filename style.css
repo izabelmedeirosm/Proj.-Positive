@@ -112,13 +112,17 @@ border: none;
         padding: 0;        
     }
 
+    body {
+        margin: 0;
+        padding: 0;      
+    }
     section {
         display: block;
         height: auto;
         width: 75%;
         position: static;
         margin-left: 13%;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     h1 {
@@ -135,26 +139,28 @@ border: none;
         
     }
     p {
-        width: 75vw;
+        width: 65vw;
         height: auto;
-        text-align: center;
+        text-align: justify;
         color: #4B505A;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 183.333%;
         letter-spacing: 0.5px;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
+        margin-top:7%;
+        margin-left: 8%;
+
     }
 
     img {
         display: block;
         margin-left: 13%;
-        margin-top: 35vh;
+        margin-top: 37vh;
         width: 75vw;
         height: auto;
-        
-    }
+            }
     
 
     .link-header {
@@ -162,9 +168,9 @@ border: none;
     }
 
     .button-header {
-        margin-top: 5px;
-        margin-left:70%;
-        margin-bottom: 5%;
+        margin-left: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
         color: #FFF;
         font-size: 12px;
         font-style: normal;
@@ -178,6 +184,8 @@ border: none;
         background: #6FBF44;
         width: 91px;
         height: 31px;
+        padding: 0;
+        
     }
 
     .link-section {
@@ -185,9 +193,6 @@ border: none;
         display:block;
         margin-left:30%;
         margin-bottom: 5%;
-        
-        
-
     }
-  
+   
 }
